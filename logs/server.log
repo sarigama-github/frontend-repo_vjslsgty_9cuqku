@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 286 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.11.48:3000/
+11:45:18 PM [vite] warning: The character ">" is not valid inside a JSX element
+45 |                    <option value="short">≤ 8</option>
+46 |                    <option value="medium">9 - 20</option>
+47 |                    <option value="long">> 20</option>
+   |                                         ^
+48 |                  </select>
+49 |                </div>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Catalog.jsx
